@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Go Web 编程实战</title><meta name="description" content="从入门到最佳实践的系统教程">
+    <link rel="preload" href="/assets/style-B3-VMakp.css" as="style"><link rel="stylesheet" href="/assets/style-B3-VMakp.css">
+    <link rel="modulepreload" href="/assets/app-C-YxjjId.js"><link rel="modulepreload" href="/assets/404.html-BKShxpmO.js">
+    <link rel="prefetch" href="/assets/01-Go基础语法.html-CvJgPc0r.js" as="script"><link rel="prefetch" href="/assets/02-Web基础与HTTP处理.html-CYVgK3Fw.js" as="script"><link rel="prefetch" href="/assets/03-Gin框架入门.html-DPpLSxme.js" as="script"><link rel="prefetch" href="/assets/04-路由与中间件.html-Dq0gYR7M.js" as="script"><link rel="prefetch" href="/assets/05-数据库操作.html-BEbVmhzH.js" as="script"><link rel="prefetch" href="/assets/06-模板渲染.html-CMtdqfTi.js" as="script"><link rel="prefetch" href="/assets/07-错误处理与日志.html-CSbCweKT.js" as="script"><link rel="prefetch" href="/assets/08-测试与部署.html-CsyCIhFE.js" as="script"><link rel="prefetch" href="/assets/09-高级中间件模式.html-BnImZRae.js" as="script"><link rel="prefetch" href="/assets/10-微服务架构.html-SbxBIttW.js" as="script"><link rel="prefetch" href="/assets/11-性能优化.html-D2G3Syda.js" as="script"><link rel="prefetch" href="/assets/12-安全最佳实践.html-DGH-CI7w.js" as="script"><link rel="prefetch" href="/assets/13-项目结构与代码组织.html-Bs7QD43N.js" as="script"><link rel="prefetch" href="/assets/get-started.html-Cjn5Nz4C.js" as="script"><link rel="prefetch" href="/assets/index.html-BN53NEvD.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-C-YxjjId.js" defer></script>
+  </body>
+</html>
